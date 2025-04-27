@@ -24,7 +24,7 @@ const Contact = () => {
               >
                 <Mail className="h-10 w-10 text-blue-700 mb-3" />
                 <span className="text-gray-900 font-medium">Email</span>
-                <span className="text-sm text-gray-500 text-center mt-1">your.email@example.com</span>
+                <span className="text-sm text-gray-500 text-center mt-1">jsdandurand@gmail.com</span>
               </a>
               
               <a 
@@ -35,7 +35,7 @@ const Contact = () => {
               >
                 <Linkedin className="h-10 w-10 text-blue-700 mb-3" />
                 <span className="text-gray-900 font-medium">LinkedIn</span>
-                <span className="text-sm text-gray-500 text-center mt-1">linkedin.com/in/yourusername</span>
+                <span className="text-sm text-gray-500 text-center mt-1">linkedin.com/in/jean-sebastien-dandurand-6b822913b/</span>
               </a>
               
               <a 
@@ -46,7 +46,7 @@ const Contact = () => {
               >
                 <Github className="h-10 w-10 text-blue-700 mb-3" />
                 <span className="text-gray-900 font-medium">GitHub</span>
-                <span className="text-sm text-gray-500 text-center mt-1">github.com/yourusername</span>
+                <span className="text-sm text-gray-500 text-center mt-1">github.com/jsdandurand</span>
               </a>
             </div>
             

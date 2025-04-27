@@ -1,5 +1,5 @@
-
 import { Card } from "@/components/ui/card";
+import profilePhoto from "../photos/profilephoto.jpg"; // Import the photo
 
 const About = () => {
   return (
@@ -12,9 +12,14 @@ const About = () => {
           <div className="w-full md:w-2/5">
             <div className="aspect-square rounded-xl overflow-hidden bg-gray-200 mb-4">
               {/* Replace with your profile image when available */}
-              <div className="w-full h-full flex items-center justify-center bg-blue-100 text-blue-500">
+              {/* <div className="w-full h-full flex items-center justify-center bg-blue-100 text-blue-500">
                 Profile Photo
-              </div>
+              </div> */}
+              <img 
+                src={profilePhoto} 
+                alt="JS Dandurand Profile Photo" 
+                className="w-full h-full object-cover" // Ensure image covers the area
+              />
             </div>
           </div>
           <div className="w-full md:w-3/5">
