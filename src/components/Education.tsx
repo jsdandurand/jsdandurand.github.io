@@ -13,10 +13,10 @@ const Education = () => {
     },
     {
       degree: "Bachelor of Science",
-      institution: "Previous University", // Replace with actual university
+      institution: "University of Toronto", 
       period: "2019 - 2023",
-      description: "Studied Computer Science with a focus on artificial intelligence and machine learning fundamentals.",
-      courses: ["Data Structures & Algorithms", "Linear Algebra", "Probability & Statistics", "Introduction to Machine Learning"]
+      description: "Double major in Mathematics and Computer Science, graduating with a 4.0 GPA.",
+      courses: ["Data Structures & Algorithms", "Linear Algebra", "Probability & Statistics", "Machine Learning"]
     }
   ];
 

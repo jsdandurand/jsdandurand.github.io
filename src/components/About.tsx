@@ -23,10 +23,10 @@ const About = () => {
                 I'm an incoming student in the MSML program at Carnegie Mellon University, passionate about advancing the field of machine learning through innovative research and practical applications.
               </p>
               <p className="text-lg text-gray-700 mb-4">
-                My research interests include deep learning, computer vision, and natural language processing. I'm particularly focused on developing models that can better understand and interpret complex data structures.
+                My research interests include deep learning, computer vision, and natural language processing. I'm exploring the intersections of these fields to develop innovative machine learning solutions.
               </p>
               <p className="text-lg text-gray-700">
-                With a strong foundation in mathematics and computer science, I aim to bridge the gap between theoretical machine learning research and real-world applications that can make a positive impact.
+                With a strong foundation in mathematics and computer science from the University of Toronto, where I graduated with a 4.0 GPA, I aim to bridge theoretical research with practical, impactful applications.
               </p>
             </Card>
             <div className="mt-6 grid grid-cols-2 md:grid-cols-3 gap-4">
