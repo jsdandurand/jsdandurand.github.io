@@ -5,29 +5,29 @@ import { FileText } from "lucide-react";
 const Publications = () => {
   const publications = [
     {
-      title: "Novel Approach to Efficient Deep Learning for Computer Vision Tasks",
-      authors: "Dandurand, J.S., Smith, J., Johnson, A.",
-      conference: "International Conference on Machine Learning (ICML)",
-      year: "2023",
-      abstract: "In this paper, we introduce a novel architecture for efficient deep learning in computer vision tasks, reducing computational requirements while maintaining or improving accuracy.",
+      title: "TOGS: Triangulated Optical Flow for 3D Gaussian Splatting Streaming",
+      authors: "Dandurand, J.S., et al.",
+      conference: "ICCV 2025",
+      year: "2025",
+      abstract: "Pending review at ICCV 2025",
       link: "#",
       pdf: "#"
     },
     {
-      title: "Optimizing Transformer Models for Scientific Document Classification",
-      authors: "Garcia, R., Dandurand, J.S., Lee, M.",
-      conference: "Conference on Neural Information Processing Systems (NeurIPS)",
-      year: "2022",
-      abstract: "We present a method for optimizing transformer-based models to effectively classify scientific documents across multiple domains with improved accuracy and reduced training time.",
+      title: "Retri3D: 3D Neural Graphics Representation Retrieval",
+      authors: "Dandurand, J.S., et al.",
+      conference: "ICLR",
+      year: "2025",
+      abstract: "Accepted at ICLR 2025",
       link: "#",
       pdf: "#"
     },
     {
-      title: "Comparative Analysis of Reinforcement Learning Algorithms for Control Tasks",
-      authors: "Dandurand, J.S., Wang, L.",
-      conference: "International Conference on Artificial Intelligence and Statistics (AISTATS)",
-      year: "2022",
-      abstract: "This paper provides a comprehensive comparison of state-of-the-art reinforcement learning algorithms on a variety of control tasks, highlighting their strengths and limitations.",
+      title: "Physics Informed Machine Learning for Emission Measurement",
+      authors: "Dandurand, J.S., et al.",
+      conference: "ASME DTOG2024",
+      year: "2024",
+      abstract: "Accepted at Digital Horizons: Energizing Transformation in Oil, Gas and Beyond (ASME DTOG2024): Digital Solutions for Gas Emissions",
       link: "#",
       pdf: "#"
     }

@@ -5,39 +5,40 @@ import { Briefcase } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      position: "Research Assistant",
-      company: "Machine Learning Lab",
-      location: "University Name",
-      period: "May 2022 - August 2022",
-      description: "Conducted research on optimizing deep learning models for computer vision tasks. Implemented and evaluated several state-of-the-art architectures using PyTorch.",
+      position: "Machine Learning Engineering Intern",
+      company: "EmMea Inc.",
+      location: "Calgary, AB",
+      period: "May 2024 - January 2025",
+      description: "Developed physics-informed neural networks for emission transportation modeling.",
       achievements: [
-        "Improved model accuracy by 15% through advanced optimization techniques",
-        "Co-authored a paper accepted at a major conference",
-        "Developed an efficient data preprocessing pipeline that reduced training time by 30%"
-      ]
-    },
-    {
-      position: "Machine Learning Intern",
-      company: "Tech Company",
-      location: "City, State",
-      period: "May 2021 - August 2021",
-      description: "Worked on developing and improving machine learning models for natural language processing tasks.",
-      achievements: [
-        "Built a sentiment analysis model achieving 89% accuracy on customer reviews",
-        "Collaborated with the product team to integrate ML models into the company's platform",
-        "Created visualization dashboards to monitor model performance"
+        "Developed state-of-the-art physics-informed neural networks for solving partial difference equations in emission transportation",
+        "Integrated implicit Runge-Kutta methods, reducing training data needs by 80% while improving stability",
+        "Applied transfer learning techniques to reduce model training time by 70%"
       ]
     },
     {
       position: "Teaching Assistant",
-      company: "Department of Computer Science",
-      location: "University Name",
-      period: "January 2021 - May 2021",
-      description: "Served as a teaching assistant for the Introduction to Machine Learning course.",
+      company: "University of Toronto",
+      location: "Toronto, ON",
+      period: "September 2023 - May 2025",
+      description: "Teaching Assistant for Machine Learning, Computer Architecture, and Differential Equations courses.",
       achievements: [
-        "Conducted weekly recitation sessions for 30+ students",
-        "Graded assignments and provided detailed feedback",
-        "Created supplementary materials to help students understand complex topics"
+        "Conducted weekly tutorials on machine learning, differential equations, and Assembly programming",
+        "Mentored 20+ students through office hours and review seminars",
+        "Provided comprehensive support for complex technical concepts"
+      ]
+    },
+    {
+      position: "Undergraduate Research Intern",
+      company: "embARC Research Group",
+      location: "Toronto, ON",
+      period: "September 2023 - June 2025",
+      description: "Conducted research in computer vision and 3D graphics.",
+      achievements: [
+        "Developed retrieval framework for neural radiance field using vision-language models",
+        "Improved retrieval accuracy by 40% through efficient camera angle selection",
+        "Achieved 6x speedup in dynamic 3D Gaussian Splatting scenes using optical flow models",
+        "Reduced data preprocessing time by 75% using COLMAP and Nerfstudio"
       ]
     }
   ];

@@ -7,16 +7,16 @@ const Education = () => {
     {
       degree: "MS in Machine Learning",
       institution: "Carnegie Mellon University",
-      period: "2023 - 2025 (Expected)",
-      description: "Focusing on advanced machine learning techniques, deep learning architectures, and their applications to real-world problems.",
+      period: "2025 - 2027",
+      description: "Master of Science in Machine Learning program.",
       courses: ["Deep Learning", "Machine Learning", "Computer Vision", "Natural Language Processing"]
     },
     {
-      degree: "Bachelor of Science",
-      institution: "University of Toronto", 
-      period: "2019 - 2023",
-      description: "Double major in Mathematics and Computer Science, graduating with a 4.0 GPA.",
-      courses: ["Data Structures & Algorithms", "Linear Algebra", "Probability & Statistics", "Machine Learning"]
+      degree: "Honours Bachelor of Science",
+      institution: "University of Toronto",
+      period: "2021 - 2025",
+      description: "Double major in Computer Science and Mathematics, graduating with a 4.0 cGPA. Received multiple scholarships including University of Toronto Scholar ($16,500) and consistently made the Dean's List.",
+      courses: ["Machine Learning", "Computer Architecture", "Differential Equations", "Data Structures & Algorithms"]
     }
   ];
 

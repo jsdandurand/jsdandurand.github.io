@@ -20,13 +20,13 @@ const About = () => {
           <div className="w-full md:w-3/5">
             <Card className="p-6 shadow-sm border-blue-100">
               <p className="text-lg text-gray-700 mb-4">
-                I'm an incoming student in the MSML program at Carnegie Mellon University, passionate about advancing the field of machine learning through innovative research and practical applications.
+                I'm Jean-Sébastien (JS) Dandurand, an incoming student in the MS Machine Learning program at Carnegie Mellon University. Based in Calgary, Alberta, I'm passionate about advancing the field of machine learning through innovative research and practical applications.
               </p>
               <p className="text-lg text-gray-700 mb-4">
-                My research interests include deep learning, computer vision, and natural language processing. I'm exploring the intersections of these fields to develop innovative machine learning solutions.
+                My research spans across physics-informed neural networks, computer vision, and 3D graphics. I've contributed to cutting-edge research in neural radiance fields and emission transportation modeling.
               </p>
               <p className="text-lg text-gray-700">
-                With a strong foundation in mathematics and computer science from the University of Toronto, where I graduated with a 4.0 GPA, I aim to bridge theoretical research with practical, impactful applications.
+                With a strong foundation in mathematics and computer science from the University of Toronto, where I graduated with a 4.0 GPA, I aim to bridge theoretical research with practical, impactful applications in machine learning and computer vision.
               </p>
             </Card>
             <div className="mt-6 grid grid-cols-2 md:grid-cols-3 gap-4">
