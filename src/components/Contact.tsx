@@ -19,7 +19,7 @@ const Contact = () => {
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               <a 
-                href="mailto:your.email@example.com" 
+                href="mailto:jsdandurand@gmail.com" 
                 className="flex flex-col items-center p-6 bg-white rounded-lg border hover:shadow-md transition-shadow"
               >
                 <Mail className="h-10 w-10 text-blue-700 mb-3" />
@@ -28,7 +28,7 @@ const Contact = () => {
               </a>
               
               <a 
-                href="https://linkedin.com/in/yourusername" 
+                href="https://www.linkedin.com/in/jean-sebastien-dandurand-6b822913b/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex flex-col items-center p-6 bg-white rounded-lg border hover:shadow-md transition-shadow"
@@ -39,7 +39,7 @@ const Contact = () => {
               </a>
               
               <a 
-                href="https://github.com/yourusername" 
+                href="https://github.com/jsdandurand" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex flex-col items-center p-6 bg-white rounded-lg border hover:shadow-md transition-shadow"
