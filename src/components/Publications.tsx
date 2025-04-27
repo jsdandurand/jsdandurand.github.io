@@ -19,8 +19,8 @@ const Publications = () => {
       conference: "ICLR",
       year: "2025",
       abstract: "Accepted at ICLR 2025",
-      link: "#",
-      pdf: "#"
+      link: "https://gavinguan95.github.io/Retri3D/",
+      pdf: "https://openreview.net/pdf?id=q3EbOXb4y1"
     },
     {
       title: "Physics Informed Machine Learning for Emission Measurement",
