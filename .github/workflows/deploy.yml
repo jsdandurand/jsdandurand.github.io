@@ -35,6 +35,9 @@ jobs:
         run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v4
+        with:
+          # This is the important part - remove any custom domain
+          static_site_generator: vite
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
