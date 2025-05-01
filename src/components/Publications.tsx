@@ -7,7 +7,7 @@ const Publications = () => {
     {
       title: "TOGS: Triangulated Optical Flow for 3D Gaussian Splatting Streaming",
       authors: "",
-      conference: "ICCV 2025",
+      conference: "ICCV",
       year: "2025",
       abstract: "Pending review at ICCV 2025",
       link: "#",
@@ -18,7 +18,7 @@ const Publications = () => {
       authors: "Yushi Guan, Daniel Kwan, Jean Sebastien Dandurand, Xi Yan, Ruofan Liang, Yuxuan Zhang, Nilesh Jain, Nilesh Ahuja, Selvakumar Panneer, Nandita Vijaykumar",
       conference: "ICLR",
       year: "2025",
-      abstract: "Accepted at ICLR 2025",
+      abstract: "Accepted at ICLR 2025 (Spotlight)",
       link: "https://gavinguan95.github.io/Retri3D/",
       pdf: "https://openreview.net/pdf?id=q3EbOXb4y1"
     },
