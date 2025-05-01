@@ -17,6 +17,19 @@ const Experience = () => {
       ]
     },
     {
+      position: "Undergraduate Research Intern",
+      company: "University of Toronto (embARC Research Group)",
+      location: "Toronto, ON",
+      period: "September 2023 - June 2025",
+      description: "Conducted research in deep learning, computer vision, 3D graphics and NLP. Supervised by Dr. Nandita Vijaykumar.",
+      achievements: [
+        "Developed retrieval framework for neural radiance field using vision-language models",
+        "Improved retrieval accuracy by 40% through efficient camera angle selection",
+        "Achieved 6x speedup in dynamic 3D Gaussian Splatting scenes using optical flow models",
+        "Reduced data preprocessing time by 75% using COLMAP and Nerfstudio"
+      ]
+    },
+    {
       position: "Teaching Assistant",
       company: "University of Toronto",
       location: "Toronto, ON",
@@ -26,19 +39,6 @@ const Experience = () => {
         "Conducted weekly tutorials on machine learning, differential equations, and Assembly programming",
         "Mentored 20+ students through office hours and review seminars",
         "Provided comprehensive support for complex technical concepts"
-      ]
-    },
-    {
-      position: "Undergraduate Research Intern",
-      company: "embARC Research Group",
-      location: "Toronto, ON",
-      period: "September 2023 - June 2025",
-      description: "Conducted research in computer vision and 3D graphics.",
-      achievements: [
-        "Developed retrieval framework for neural radiance field using vision-language models",
-        "Improved retrieval accuracy by 40% through efficient camera angle selection",
-        "Achieved 6x speedup in dynamic 3D Gaussian Splatting scenes using optical flow models",
-        "Reduced data preprocessing time by 75% using COLMAP and Nerfstudio"
       ]
     }
   ];
