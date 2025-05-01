@@ -5,12 +5,12 @@ import { Badge } from "@/components/ui/badge";
 
 const Projects = () => {
   const projects = [
-    // {
-    //   title: "Deep Learning for Medical Image Analysis",
-    //   description: "Developed a convolutional neural network for automated detection of abnormalities in medical images, achieving 92% accuracy on the test dataset.",
-    //   technologies: ["Python", "PyTorch", "OpenCV", "TensorBoard"],
-    //   link: "#"
-    // },
+    {
+      title: "Self-Regressive Runge-Kutta Physics-Informed Neural Networks for Partial Differential Equations",
+      description: "Developed a self-regressive Runge-Kutta physics-informed neural network for solving partial differential equations.",
+      technologies: ["Python", "PyTorch"],
+      link: "https://github.com/jsdandurand/PINN"
+    },
     // {
     //   title: "Natural Language Processing for Scientific Papers",
     //   description: "Created a system to automatically categorize and summarize scientific papers based on their content using BERT-based models and transformers.",
