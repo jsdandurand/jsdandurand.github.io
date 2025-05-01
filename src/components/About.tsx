@@ -30,7 +30,7 @@ const About = () => {
               <p className="text-lg text-gray-700 mb-4">
                 My research spans across physics-informed neural networks, computer vision, and 3D graphics. I've contributed to cutting-edge research in neural radiance fields and emission transportation modeling.
               </p>
-              <p className="text-lg text-gray-700">
+              <p className="text-lg text-gray-700 mb-4">
                 With a strong foundation in mathematics and computer science from the University of Toronto, where I graduated with a 4.0 GPA, I aim to bridge theoretical research with practical, impactful applications in machine learning and computer vision.
               </p>
               <p className="text-lg text-gray-700">
