@@ -6,7 +6,7 @@ const Publications = () => {
   const publications = [
     {
       title: "TOGS: Triangulated Optical Flow for 3D Gaussian Splatting Streaming",
-      authors: "Dandurand, J.S., et al.",
+      authors: "",
       conference: "ICCV 2025",
       year: "2025",
       abstract: "Pending review at ICCV 2025",
@@ -24,7 +24,7 @@ const Publications = () => {
     },
     {
       title: "Physics Informed Machine Learning for Emission Measurement",
-      authors: "Dandurand, J.S., et al.",
+      authors: "Henry Jin, Jean Sebastien Dandurand",
       conference: "ASME DTOG2024",
       year: "2024",
       abstract: "Accepted at Digital Horizons: Energizing Transformation in Oil, Gas and Beyond (ASME DTOG2024): Digital Solutions for Gas Emissions",
