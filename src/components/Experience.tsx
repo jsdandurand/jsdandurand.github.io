@@ -5,7 +5,7 @@ import { Briefcase } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      position: "Machine Learning Engineering Intern",
+      position: "Machine Learning Engineer Intern",
       company: "EmMea Inc.",
       location: "Calgary, AB",
       period: "May 2024 - January 2025",
