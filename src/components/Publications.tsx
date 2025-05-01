@@ -28,7 +28,7 @@ const Publications = () => {
       conference: "ASME DTOG2024",
       year: "2024",
       abstract: "Accepted at Digital Horizons: Energizing Transformation in Oil, Gas and Beyond (ASME DTOG2024): Digital Solutions for Gas Emissions",
-      link: "#"
+      link: "https://dtog.secure-platform.com/a/solicitations/233/sessiongallery/17665/application/148619"
     }
   ];
 
