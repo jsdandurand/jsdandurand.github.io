@@ -15,7 +15,7 @@ const Publications = () => {
     },
     {
       title: "Retri3D: 3D Neural Graphics Representation Retrieval",
-      authors: "Dandurand, J.S., et al.",
+      authors: "Yushi Guan, Daniel Kwan, Jean Sebastien Dandurand, Xi Yan, Ruofan Liang, Yuxuan Zhang, Nilesh Jain, Nilesh Ahuja, Selvakumar Panneer, Nandita Vijaykumar",
       conference: "ICLR",
       year: "2025",
       abstract: "Accepted at ICLR 2025",
@@ -28,8 +28,7 @@ const Publications = () => {
       conference: "ASME DTOG2024",
       year: "2024",
       abstract: "Accepted at Digital Horizons: Energizing Transformation in Oil, Gas and Beyond (ASME DTOG2024): Digital Solutions for Gas Emissions",
-      link: "#",
-      pdf: "#"
+      link: "#"
     }
   ];
 

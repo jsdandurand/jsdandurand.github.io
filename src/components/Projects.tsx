@@ -5,30 +5,30 @@ import { Badge } from "@/components/ui/badge";
 
 const Projects = () => {
   const projects = [
-    {
-      title: "Deep Learning for Medical Image Analysis",
-      description: "Developed a convolutional neural network for automated detection of abnormalities in medical images, achieving 92% accuracy on the test dataset.",
-      technologies: ["Python", "PyTorch", "OpenCV", "TensorBoard"],
-      link: "#"
-    },
-    {
-      title: "Natural Language Processing for Scientific Papers",
-      description: "Created a system to automatically categorize and summarize scientific papers based on their content using BERT-based models and transformers.",
-      technologies: ["Python", "HuggingFace", "BERT", "Scikit-learn"],
-      link: "#"
-    },
-    {
-      title: "Reinforcement Learning for Game AI",
-      description: "Implemented a reinforcement learning agent capable of learning and mastering complex games through self-play and optimization techniques.",
-      technologies: ["Python", "TensorFlow", "OpenAI Gym", "NumPy"],
-      link: "#"
-    },
-    {
-      title: "Data Visualization Dashboard",
-      description: "Built an interactive web application for visualizing complex datasets with customizable charts and filtering capabilities.",
-      technologies: ["React", "D3.js", "Node.js", "MongoDB"],
-      link: "#"
-    }
+    // {
+    //   title: "Deep Learning for Medical Image Analysis",
+    //   description: "Developed a convolutional neural network for automated detection of abnormalities in medical images, achieving 92% accuracy on the test dataset.",
+    //   technologies: ["Python", "PyTorch", "OpenCV", "TensorBoard"],
+    //   link: "#"
+    // },
+    // {
+    //   title: "Natural Language Processing for Scientific Papers",
+    //   description: "Created a system to automatically categorize and summarize scientific papers based on their content using BERT-based models and transformers.",
+    //   technologies: ["Python", "HuggingFace", "BERT", "Scikit-learn"],
+    //   link: "#"
+    // },
+    // {
+    //   title: "Reinforcement Learning for Game AI",
+    //   description: "Implemented a reinforcement learning agent capable of learning and mastering complex games through self-play and optimization techniques.",
+    //   technologies: ["Python", "TensorFlow", "OpenAI Gym", "NumPy"],
+    //   link: "#"
+    // },
+    // {
+    //   title: "Data Visualization Dashboard",
+    //   description: "Built an interactive web application for visualizing complex datasets with customizable charts and filtering capabilities.",
+    //   technologies: ["React", "D3.js", "Node.js", "MongoDB"],
+    //   link: "#"
+    // }
   ];
 
   return (
