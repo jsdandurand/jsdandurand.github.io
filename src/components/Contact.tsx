@@ -1,7 +1,7 @@
-
 import { Card } from "@/components/ui/card";
 import { Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import cvFile from "../photos/dandurandcv012825.docx";
 
 const Contact = () => {
   return (
@@ -52,10 +52,13 @@ const Contact = () => {
             
             <div className="text-center">
               <Button 
+                asChild
                 variant="outline" 
                 className="rounded-full border-blue-700 text-blue-700 hover:bg-blue-700 hover:text-white transition-colors"
               >
-                Download Resume
+                <a href={cvFile} download="JS_Dandurand_CV.docx">
+                  Download Resume
+                </a>
               </Button>
             </div>
           </Card>

@@ -13,4 +13,14 @@ declare module '*.png' {
 declare module '*.gif' {
   const value: any;
   export default value;
+}
+
+declare module '*.docx' {
+  const value: string;
+  export default value;
+}
+
+declare module '*.pdf' {
+  const value: string;
+  export default value;
 } 
