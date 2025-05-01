@@ -8,7 +8,6 @@ import Projects from "@/components/Projects";
 import Publications from "@/components/Publications";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import GitHubInstructions from "@/components/GitHubInstructions";
 
 const Index = () => {
   return (
@@ -22,7 +21,6 @@ const Index = () => {
       <Publications />
       <Contact />
       <Footer />
-      <GitHubInstructions />
     </div>
   );
 };
