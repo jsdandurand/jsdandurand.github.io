@@ -33,6 +33,12 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
+      - name: Check for CNAME in dist
+        run: |
+          if [ -f "./dist/CNAME" ]; then
+            echo "Found CNAME file in dist, removing it..."
+            rm ./dist/CNAME
+          fi
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
