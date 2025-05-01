@@ -33,6 +33,9 @@ const About = () => {
               <p className="text-lg text-gray-700">
                 With a strong foundation in mathematics and computer science from the University of Toronto, where I graduated with a 4.0 GPA, I aim to bridge theoretical research with practical, impactful applications in machine learning and computer vision.
               </p>
+              <p className="text-lg text-gray-700">
+                I also enjoy fitness.
+              </p>
             </Card>
             <div className="mt-6 grid grid-cols-2 md:grid-cols-3 gap-4">
               <div className="bg-blue-50 rounded-lg p-4 text-center">
