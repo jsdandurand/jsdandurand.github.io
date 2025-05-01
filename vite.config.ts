@@ -7,6 +7,9 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   // Remove any base path - this will use the repository name automatically
+  server: {
+    port: 8080
+  },
   plugins: [
     react(),
     mode === 'development' &&
