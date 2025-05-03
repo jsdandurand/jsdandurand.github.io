@@ -7,9 +7,9 @@ const Publications = () => {
     {
       title: "TOGS: Triangulated Optical Flow for 3D Gaussian Splatting Streaming",
       authors: "",
-      conference: "ICCV",
+      conference: "ICCV (Pending review)",
       year: "2025",
-      abstract: "Pending review at ICCV 2025",
+      abstract: "TOGS introduces a fast, high-fidelity 3D Gaussian Splatting streaming framework that uses 2D optical flow and novel triangulation methods to update 3D Gaussians in a single step, achieving 6× faster training and better quality than existing approaches for dynamic scenes.",
       link: "#",
       pdf: "#"
     },
