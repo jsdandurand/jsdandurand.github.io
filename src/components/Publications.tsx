@@ -28,7 +28,8 @@ const Publications = () => {
       conference: "SPE Gas & Oil Technology Conference",
       year: "2025",
       abstract: "Evaluating Physics-Informed Neural Networks (PINNs) as a computationally efficient and accurate alternative to traditional CFD methods for solving multiphase emission dispersion problems, demonstrating their potential for real-time applications and reduced resource demands",
-      link: "https://onepetro.org/SPEGOTS/proceedings-abstract/25GOTS/25GOTS/652797"
+      link: "https://onepetro.org/SPEGOTS/proceedings-abstract/25GOTS/25GOTS/652797",
+      pdf: "https://onepetro.org/SPEGOTS/proceedings-abstract/25GOTS/25GOTS/652797"
     }
   ];
 
