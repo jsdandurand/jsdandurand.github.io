@@ -7,9 +7,18 @@ const Publications = () => {
     {
       title: "TOGS: Triangulated Optical Flow for 3D Gaussian Splatting Streaming",
       authors: "",
-      conference: "ICCV (Pending review)",
+      conference: "NeurIPS (Pending review)",
       year: "2025",
       abstract: "TOGS introduces a fast, high-fidelity 3D Gaussian Splatting streaming framework that uses 2D optical flow and novel triangulation methods to update 3D Gaussians in a single step, achieving 6× faster training and better quality than existing approaches for dynamic scenes.",
+      link: "#",
+      pdf: "#"
+    },
+    {
+      title: "LoRAKD: LoRA Knowledge Distillation",
+      authors: "",
+      conference: "NeurIPS (Pending review)",
+      year: "2025",
+      abstract: "LoRAKD introduces a method for distilling specialized knowledge from a LoRA-finetuned model to a new base model using perplexity-based prompt selection and generation, eliminating the need for original training data or additional discriminators while outperforming existing approaches in accuracy.",
       link: "#",
       pdf: "#"
     },
