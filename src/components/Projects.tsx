@@ -55,6 +55,7 @@ const Projects = () => {
                     src={project.image}
                     alt={`${project.title} preview`}
                     className="w-full h-full object-cover"
+                    loop
                   />
                 </div>
               )}
