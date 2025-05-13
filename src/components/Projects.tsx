@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Code } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
@@ -6,11 +5,20 @@ import { Badge } from "@/components/ui/badge";
 const Projects = () => {
   const projects = [
     {
+      title: "DCGAN-Pokemon",
+      description: "Developed a DCGAN model for generating Pokemon(ish) images.",
+      technologies: ["Python", "PyTorch", "GANs", "Generative AI"],
+      link: "https://github.com/jsdandurand/DCGAN-Pokemon",
+      image: "/photos/fixed_noise_progress2.gif"
+    },
+    {
       title: "Self-Regressive Runge-Kutta Physics-Informed Neural Networks for Partial Differential Equations",
       description: "Developed a self-regressive Runge-Kutta physics-informed neural network for solving partial differential equations.",
-      technologies: ["Python", "PyTorch"],
-      link: "https://github.com/jsdandurand/PINN"
+      technologies: ["Python", "PyTorch", "Physics-Informed Neural Networks", "Runge-Kutta Methods"],
+      link: "https://github.com/jsdandurand/PINN",
+      image: "/photos/concentration.gif"
     },
+  
     // {
     //   title: "Natural Language Processing for Scientific Papers",
     //   description: "Created a system to automatically categorize and summarize scientific papers based on their content using BERT-based models and transformers.",
@@ -41,6 +49,15 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <Card key={index} className="h-full overflow-hidden hover:shadow-md transition-shadow">
+              {project.image && (
+                <div className="relative w-full h-48 overflow-hidden">
+                  <img
+                    src={project.image}
+                    alt={`${project.title} preview`}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              )}
               <CardHeader>
                 <CardTitle className="text-xl font-bold text-gray-900">{project.title}</CardTitle>
                 <CardDescription className="text-gray-700">{project.description}</CardDescription>
