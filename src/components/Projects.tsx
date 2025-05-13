@@ -50,7 +50,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <Card key={index} className="h-full overflow-hidden hover:shadow-md transition-shadow">
               {project.image && (
-                <div className="relative w-full h-48 overflow-hidden">
+                <div className="relative w-full h-64 overflow-hidden">
                   <img
                     src={project.image}
                     alt={`${project.title} preview`}
