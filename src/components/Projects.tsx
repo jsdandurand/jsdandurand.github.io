@@ -6,7 +6,7 @@ const Projects = () => {
   const projects = [
     {
       title: "DCGAN-Pokemon",
-      description: "Developed a DCGAN model for generating Pokemon(ish) images.",
+      description: "Developed a DCGAN model for generating somewhat terrifying Pokemon(ish) images.",
       technologies: ["Python", "PyTorch", "GANs", "Generative AI"],
       link: "https://github.com/jsdandurand/DCGAN-Pokemon",
       image: "/photos/fixed_noise_progress2.gif"
