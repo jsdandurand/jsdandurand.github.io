@@ -20,10 +20,9 @@ const Experience = () => {
       period: "September 2023 - May 2025",
       description: "Conducted research in deep learning, computer vision, 3D graphics and NLP. Supervised by Dr. Nandita Vijaykumar.",
       achievements: [
-        "Developed retrieval framework for neural radiance field using vision-language models",
-        "Improved retrieval accuracy by 40% through efficient camera angle selection",
-        "Achieved 6x speedup in dynamic 3D Gaussian Splatting scenes using optical flow models",
-        "Reduced data preprocessing time by 75% using COLMAP and Nerfstudio"
+        "Co-authored Retri3D (ICLR 2025 Spotlight), pioneering a framework for text-based retrieval of 3D neural scenes (Neural Radiance Fields, 3D Gaussian Splatting). Achieved 84.95% retrieval accuracy (P@1) on the LERF dataset, outperforming baselines by up to 58.6%, while reducing storage overhead by 10,000× and enabling millisecond-scale queries",
+        "Co-authored TuneShift-KD, achieving up to 13.5% improved accuracy on specialized tasks (e.g. Python code generation) by automating knowledge transfer between LLMs using perplexity-based synthetic data, without access to original training datasets",
+        "Researched dynamic 3D Gaussian Splatting by leveraging optical flow models, achieving a 6x speedup in training time compared to state-of-the-art iterative methods (manuscript in preparation for ICLR 2026)",
       ]
     },
     {
@@ -33,9 +32,10 @@ const Experience = () => {
       period: "May 2024 - January 2025",
       description: "Developed physics-informed neural networks for emission transportation modeling.",
       achievements: [
-        "Developed state-of-the-art physics-informed neural networks for solving partial difference equations in emission transportation",
-        "Integrated implicit Runge-Kutta methods, reducing training data needs by 80% while improving stability",
-        "Applied transfer learning techniques to reduce model training time by 70%"
+        "Developed a physics-informed neural network (PINN) framework for multiphase emission flow modeling, achieving 4.15–14.3% phase fraction error (vs. 7.18–33.51% in CFD) while reducing simulation runtime by 90% (3 hrs vs. 24–38 hrs) through embedded Navier-Stokes equations and adaptive loss balancing.",
+        "Pioneered hybrid Self-Regressive Runge-Kutta (SR-RK) PINN architecture, integrating implicit Runge-Kutta time-stepping and self-regressive training, enabling stable 3D advection-diffusion modeling with 80% less training data and 10× faster convergence than traditional CFD solvers.",
+        "Optimized training workflows via Adam-LBFGS hybrid optimization and GPU parallelization, slashing per-simulation compute costs by 50% while maintaining >95% accuracy across stratified/dispersed flow regimes.",
+        "Validated framework against experimental data and ANSYS Fluent benchmarks, demonstrating PINN superiority in real-time emission monitoring applications with 22% higher accuracy in transitional flow pattern prediction."
       ]
     },
     {
