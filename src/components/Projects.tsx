@@ -11,13 +11,13 @@ const Projects = () => {
       link: "https://github.com/jsdandurand/DCGAN-Pokemon",
       image: "/photos/fixed_noise_progress2.gif"
     },
-    {
-      title: "Self-Regressive Runge-Kutta Physics-Informed Neural Networks for Partial Differential Equations",
-      description: "Developed a self-regressive Runge-Kutta physics-informed neural network for solving partial differential equations.",
-      technologies: ["Python", "PyTorch", "Physics-Informed Neural Networks", "Runge-Kutta Methods"],
-      link: "https://github.com/jsdandurand/PINN",
-      image: "/photos/concentration.gif"
-    },
+    // {
+    //   title: "Self-Regressive Runge-Kutta Physics-Informed Neural Networks for Partial Differential Equations",
+    //   description: "Developed a self-regressive Runge-Kutta physics-informed neural network for solving partial differential equations.",
+    //   technologies: ["Python", "PyTorch", "Physics-Informed Neural Networks", "Runge-Kutta Methods"],
+    //   link: "https://github.com/jsdandurand/PINN",
+    //   image: "/photos/concentration.gif"
+    // },
   
     // {
     //   title: "Natural Language Processing for Scientific Papers",
