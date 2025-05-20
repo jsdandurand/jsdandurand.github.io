@@ -10,8 +10,9 @@ const Experience = () => {
       location: "Pittsburgh, PA",
       period: "May 2025 - Present",
       description: "Supervised by Dr. Laszlo Jeni.",
-      // achievements: [
-      // ]
+      achievements: [
+        "Designing benchmark frameworks to evaluate multimodal large language models (MLLM) in high fps video understanding tasks"
+      ]
     },
     {
       position: "Undergraduate Research Intern",
