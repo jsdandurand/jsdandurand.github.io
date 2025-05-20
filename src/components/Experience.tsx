@@ -5,6 +5,28 @@ import { Briefcase } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
+      position: "Graduate Research Assistant",
+      company: "Carnegie Mellon University (CUBE Lab)",
+      location: "Pittsburgh, PA",
+      period: "May 2025 - Present",
+      description: "Supervised by Dr. Laszlo Jeni.",
+      achievements: [
+      ]
+    },
+    {
+      position: "Undergraduate Research Intern",
+      company: "University of Toronto (embARC Research Group)",
+      location: "Toronto, ON",
+      period: "September 2023 - May 2025",
+      description: "Conducted research in deep learning, computer vision, 3D graphics and NLP. Supervised by Dr. Nandita Vijaykumar.",
+      achievements: [
+        "Developed retrieval framework for neural radiance field using vision-language models",
+        "Improved retrieval accuracy by 40% through efficient camera angle selection",
+        "Achieved 6x speedup in dynamic 3D Gaussian Splatting scenes using optical flow models",
+        "Reduced data preprocessing time by 75% using COLMAP and Nerfstudio"
+      ]
+    },
+    {
       position: "Machine Learning Engineer Intern",
       company: "EmMea Inc.",
       location: "Calgary, AB",
@@ -14,19 +36,6 @@ const Experience = () => {
         "Developed state-of-the-art physics-informed neural networks for solving partial difference equations in emission transportation",
         "Integrated implicit Runge-Kutta methods, reducing training data needs by 80% while improving stability",
         "Applied transfer learning techniques to reduce model training time by 70%"
-      ]
-    },
-    {
-      position: "Undergraduate Research Intern",
-      company: "University of Toronto (embARC Research Group)",
-      location: "Toronto, ON",
-      period: "September 2023 - June 2025",
-      description: "Conducted research in deep learning, computer vision, 3D graphics and NLP. Supervised by Dr. Nandita Vijaykumar.",
-      achievements: [
-        "Developed retrieval framework for neural radiance field using vision-language models",
-        "Improved retrieval accuracy by 40% through efficient camera angle selection",
-        "Achieved 6x speedup in dynamic 3D Gaussian Splatting scenes using optical flow models",
-        "Reduced data preprocessing time by 75% using COLMAP and Nerfstudio"
       ]
     },
     {
