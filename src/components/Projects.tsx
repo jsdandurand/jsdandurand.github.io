@@ -11,6 +11,13 @@ const Projects = () => {
       link: "https://github.com/jsdandurand/DCGAN-Pokemon",
       image: "/photos/fixed_noise_progress2.gif"
     },
+    {
+      title: "ClipTracker",
+      description: "Open vocabulary object detection and tracking using CLIP, YOLO and SORT",
+      technologies: ["Python",  "Object Detection"],
+      link: "https://github.com/jsdandurand/ClipTracker",
+      image: "/photos/horse_track.gif"
+    }
     // {
     //   title: "Self-Regressive Runge-Kutta Physics-Informed Neural Networks for Partial Differential Equations",
     //   description: "Developed a self-regressive Runge-Kutta physics-informed neural network for solving partial differential equations.",
